@@ -1,0 +1,51 @@
+<!-- Exercício 1
+Descrição do ChatGPT:
+Um bom desafio para praticar o Box Model e a estilização com CSS é criar um layout de cartão de perfil. Vou te dar os detalhes do desafio:
+
+Desafio: Cartão de Perfil
+
+Objetivo:** Criar um cartão de perfil estilizado utilizando o Box Model.
+
+Requisitos:
+
+1. Estrutura HTML:
+   - Crie um contêiner principal para o cartão.
+   - Dentro do contêiner, adicione uma imagem (pode ser uma imagem de perfil fictícia).
+   - Inclua um título (nome da pessoa) e uma breve descrição.
+   - Adicione três botões ou links abaixo da descrição (por exemplo: "Seguir", "Mensagem", "Ver Perfil").
+
+2. Estilização CSS:
+   - Use o Box Model para definir `margin`, `padding`, `border`, e `width` do contêiner principal.
+   - Aplique `padding` e `margin` nos elementos internos (imagem, título, descrição, botões).
+   - Defina um `border-radius` para deixar os cantos do cartão e dos botões arredondados.
+   - Adicione um `box-shadow` ao contêiner principal para dar um efeito de sombra.
+   - Estilize os botões com cores de fundo, bordas e efeitos de hover.
+
+3. Funcionalidades Extras (Opcional):
+   - Use flexbox para alinhar os elementos dentro do contêiner principal.
+   - Faça com que o cartão seja responsivo (ajustável em diferentes tamanhos de tela).
+
+Exemplo Visual:
+Imagine um cartão com uma foto de perfil no topo, seguida do nome da pessoa, uma descrição curta e três botões alinhados na parte inferior.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 GPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main-card">
+      <img src="/Images/EU.jpg" alt="Foto de perfil">
+      <h2>Vinicius Moura Silva</h2>
+      <p>Sou uma pessoa bastante dedicada, alegre e extrovertida. Gosto de estudar, fazer exercícios e sair com amigos.</p>
+      <div class="buttons">
+         <button aria-label="Seguir Vinicius Moura Silva">Seguir</button>
+         <button aria-label="Enviar mensagem para Vinicius Moura Silva">Mensagem</button>
+         <button aria-label="Ver o perfil de Vinicius Moura Silva">Ver Perfil</button>
+       </div>
+    </div>
+</body>
+</html>

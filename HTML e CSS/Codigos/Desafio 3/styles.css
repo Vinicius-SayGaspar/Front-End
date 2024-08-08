@@ -1,0 +1,19 @@
+#desafio3 {
+    color: rgb(3, 13, 10);
+    padding: 25px;
+    margin: 20px;
+    background-color: azure;
+    border: 3px solid #236;
+    border-radius: 10px;
+    width: 400px;
+    height: 75px;
+    outline: 3px solid #293;
+}
+
+.elemento {
+    background-color: bisque;
+    color:  black;
+    border: 3px solid red;
+    outline: 4px solid #293;
+    border-radius: 10px;
+}
