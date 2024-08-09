@@ -1,4 +1,4 @@
-Página de Tributo: The Offspring
+Página de Tributo: Ghost of Tsushinma
 
 Esse é um projeto baseado no projeto 1 - Tributos a Banda The Offspring do curso 
 Formação Front-end - HTML, CSS, JavaScript, React e + do Matheus Battisti na plataforma Udemy.
